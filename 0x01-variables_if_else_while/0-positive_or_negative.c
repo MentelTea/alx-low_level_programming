@@ -2,6 +2,12 @@
 #include <time.h>
 #include <stdlio.h>
 
+/*
+ * main - Determines if a nuùmber is positive , negative or zero
+ *
+ * return: 0
+ */
+
 int main(void)
 
 {
@@ -11,10 +17,10 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 			if (n < 0)
 			{
-			printf("is positive")
+			printf("%d is positive\n", n)
 			if else(n == 0)
-			printf("is zero")
+			printf("%d is zero\n", n)
 			if else(n > 0)
-			Printf("is negative")
+			Printf("%d is negative\n", n)
 	return (0);
 }
