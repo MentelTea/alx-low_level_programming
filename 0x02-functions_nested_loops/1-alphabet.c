@@ -1,19 +1,22 @@
 #include "main.h"
 
-void print_alphabet(void);
+/**
+ * print_alphabet - Entry point
+ * Description: Prints alpabets
+ * Return: void
+ */
 
+void print_alphabet(void)
 {
 	char c;
 
-	c = a;
+	c = 'a';
 
 	while (c <= 'z')
 	{
 		_putchar(c);
 		c++;
-
 	}
 
 	_putchar('\n');
-
 }
