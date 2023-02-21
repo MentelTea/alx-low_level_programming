@@ -8,7 +8,10 @@
 
 void print_alphabet(void)
 {
-	char c;
+	char c:
+	int i;	
+
+	i = 1;
 
 	c = 'a';
 
