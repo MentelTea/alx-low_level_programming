@@ -1,21 +1,22 @@
 #include "main.h"
-/*
- *main - entry point
- *Description - prints 10 the alphabet times
- *Return: void
+
+/**
+ * print_alphabet - Entry point
+ * Description: Prints alpabets
+ * Return: void
  */
-void print_alphabet_x10(void)
+
+void print_alphabet(void)
 {
 	char c;
+
 	c = 'a';
-	char(c <= 'z')
-		{
-			while (c <= z)
-			{
-				_putchar(c);
-				c++;
-			}
-			_putchar('\n');
 
+	while (c <= 'z')
+	{
+		_putchar(curr);
+		c++;
+	}
 
+	_putchar('\n');
 }
