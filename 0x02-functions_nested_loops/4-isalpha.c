@@ -2,24 +2,24 @@
 
 /**
  * _isalpha - Entry point
- * @c: input character
+ * @c: input char
  * Description: check for alphabets
  * Return: 1 if alphabets 0 otherwise
  */
 
 int _isalpha(int c)
 {
-	char i;
+	char s;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (s = 'a'; s <= 'z'; s++)
 	{
-		if (c == i)
+		if (c == s)
 			return (1);
 	}
 
-	for (i = 'A'; s <= 'Z'; i++)
+	for (s = 'A'; s <= 'Z'; s++)
 	{
-		if (c == i)
+		if (c == s)
 			return (1);
 	}
 
