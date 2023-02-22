@@ -9,17 +9,17 @@
 
 int _isalpha(int c)
 {
-	char s;
+	char i;
 
-	for (s = 'a'; s <= 'z'; s++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (c == s)
+		if (c == i)
 			return (1);
 	}
 
-	for (s = 'A'; s <= 'Z'; s++)
+	for (i = 'A'; i <= 'Z'; i++)
 	{
-		if (c == s)
+		if (c == i)
 			return (1);
 	}
 
