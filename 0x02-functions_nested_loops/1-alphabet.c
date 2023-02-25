@@ -1,22 +1,18 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_alphabet - Entry point
- * Description: Prints alpabets
- * Return: void
- */
-
+  * print_alphabet - prints alphabets in lowercase
+  *
+  * Retrun: void
+  */
 void print_alphabet(void)
 {
-	char c;
+	char first = 'a';
 
-	c = 'a';
-
-	while (c <= 'z')
+	while (first <= 'z')
 	{
-		_putchar(c);
-		c++;
+		putchar (first);
+		first++;
 	}
-
-	_putchar('\n');
+	putchar ('\n');
 }
